@@ -34,6 +34,7 @@ export default function TodoList() {
     };
 
     const addTodo = (text) => {
+        if (text === "") return;
         setTodos((prevTodos) => {
             const newID = crypto.randomUUID();
             return [...prevTodos, { id: newID, text: text, completed: false }]
