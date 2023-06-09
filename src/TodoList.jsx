@@ -1,7 +1,7 @@
-import List from '@mui/material/List';
-import { useState, useEffect } from 'react';
 import TodoItem from './TodoItem';
 import TodoForm from './TodoForm';
+import { useState, useEffect } from 'react';
+import List from '@mui/material/List';
 
 const getStoredData = () => {
     const data = JSON.parse(localStorage.getItem("todos"));
