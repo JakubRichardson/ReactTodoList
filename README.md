@@ -3,7 +3,7 @@ A simple, minimalist React web application built for organising your daily tasks
 
 The project was set up using Vite. Vite is a fast, modern local development server for React (and more, including Vue or Svelte) apps. The app was built using the free and open-source front-end React, JavaScript library for building user interfaces based on components. Material UI, a React components library, was also used to provide good looking, easy to use, pre-built components to speed up the frontend development process.
 
-The application uses the browser's built in local storage, so you do not lose your todos after refreshing the page.
+The application uses the browser's built in localstorage, so you do not lose your todos when you close or refresh the page.
 
 This document outlines the project design and how to get a copy of the application running on your local machine.
 
