@@ -23,7 +23,8 @@ export default function TodoForm({ add }) {
             <form onSubmit={handleSubmit}>
                 <TextField
                     id="outlined-basic"
-                    label="Outlined"
+                    label="Add Todo"
+                    placeholder="Do Something!"
                     variant="outlined"
                     value={text}
                     onChange={handleChange}
