@@ -1,13 +1,14 @@
 # Todo List React Application
 A simple, minimalist React web application built for organising your daily tasks.
 
-The project was set up using Vite. Vite is a fast, modern local development server for React (and more, including Vue or Svelte) apps. The app was built using the free and open-source front-end React JavaScript library for building user interfaces based on components. Material UI, a React components library was used to provide good looking easy to use pre-built components to speed up the frontend development process.
+The project was set up using Vite. Vite is a fast, modern local development server for React (and more, including Vue or Svelte) apps. The app was built using the free and open-source front-end React, JavaScript library for building user interfaces based on components. Material UI, a React components library, was also used to provide good looking, easy to use, pre-built components to speed up the frontend development process.
 
-This document outlines what the project looks like and how to get a copy running on your local machine.
+The application uses the browser's built in local storage, so you do not lose your todos after refreshing the page.
+
+This document outlines the project design and how to get a copy of the application running on your local machine.
 
 ## 🖼️ Project Images
 
-<p>Adding a new todo</p>
 <p align="center">
     <img src="./images/Items.png" alt="Some Todos" width="300"/>
 </p>
