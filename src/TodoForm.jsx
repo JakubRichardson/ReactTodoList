@@ -19,7 +19,7 @@ export default function TodoForm({ add }) {
     }
 
     return (
-        <ListItem>
+        <ListItem disableGutters>
             <form onSubmit={handleSubmit}>
                 <TextField
                     id="outlined-basic"

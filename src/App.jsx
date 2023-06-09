@@ -21,7 +21,6 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <h1>Todos</h1>
       <TodoList />
     </ThemeProvider>
   );

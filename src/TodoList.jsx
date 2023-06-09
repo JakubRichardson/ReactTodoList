@@ -2,6 +2,7 @@ import TodoItem from './TodoItem';
 import TodoForm from './TodoForm';
 import { useState, useEffect } from 'react';
 import List from '@mui/material/List';
+import Typography from '@mui/material/Typography';
 
 const getStoredData = () => {
     const data = JSON.parse(localStorage.getItem("todos"));
@@ -41,12 +42,14 @@ export default function TodoList() {
         })
     }
 
-    return (
+    return (<>
+        <Typography variant="h2">Todos</Typography>
         <List sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
             {todos.map((todo) => (
                 <TodoItem todo={todo} key={todo.id} remove={() => removeTodo(todo.id)} toggle={() => toggleTodo(todo.id)} />
             ))}
             <TodoForm add={addTodo} />
         </List>
+    </>
     );
 }
