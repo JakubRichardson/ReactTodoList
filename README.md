@@ -12,7 +12,7 @@ This document outlines the project design and how to get a copy of the applicati
 <p align="center">
     <img src="./images/Items.png" alt="Some Todos" width="300"/>
 </p>
-<p>The todo list application with some todos</p>
+The todo list application with some todos
 
 <details>
 <summary>See More Images</summary>
@@ -20,11 +20,13 @@ This document outlines the project design and how to get a copy of the applicati
 <p align="center">
     <img src="./images/Input.png" alt="The Todo List Input" width="=300"/>
 </p>
-<p>Adding a new todo</p>
+Adding a new todo
+
 <p align="center">
     <img src="./images/Home.png" alt="Empty Todo List page" width="300"/>
 </p>
-<p>Cleared todo list page (This is the way the page looks after the application is first opened)</p>
+Cleared todo list page (This is the way the page looks after the application is first opened)
+
 </details>
 
 ## 🏁 Getting Started
@@ -49,9 +51,9 @@ Then open the app in the browser using `localhost` as per the port number given 
 
 ## ⛏️ Built With
 
-- [Vite](https://vitejs.dev/)
-- [React](https://react.dev/)
-- [Material UI](https://mui.com/)
+- [Vite](https://vitejs.dev/) - Development Server
+- [React](https://react.dev/) - JavaScript front-end library
+- [Material UI](https://mui.com/) - React components library
 
 ## ✍️ Author
 
